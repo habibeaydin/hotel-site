@@ -237,3 +237,25 @@ img{
 .footer .social a {
     margin-right: 10px;
 }
+
+/* mobile */
+@media(max-width:768px) {
+    html{
+        font-size: 8px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: 12px;
+        padding: 20px;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 3px;
+    }
+
+    .teams img {
+        width: 70%;
+    }
+}
